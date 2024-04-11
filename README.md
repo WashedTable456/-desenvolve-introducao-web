@@ -1,5 +1,5 @@
 # -desenvolve-introducao-web
 
 Cidade: Bom Despacho
-Disciplina: Prgramação Web
+Disciplina: Programação Web
 Mtrícula: PDBD050
