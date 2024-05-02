@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <h1>Formulátio: Pesquisa</h1>
+    </head>
+    <body>
+        <section>
+            <h2>Dados Pessoais:</h2>
+            <form action="página_destino.html" method="post">  
+                <p>
+                    <label for="nome">Seu Nome</label>
+                    <input type="text" placeholder="Nome" id="nome">
+                </p>
+                <p>
+                    <label for="email">Seu e-mail</label>
+                    <input type="text" placeholder="e-mail" id="email">
+                </p>
+                <p>
+                    <label for="telefone">Seu Telefone</label>
+                    <input type="password" placeholder="Telefone/Celular" id="telefone">
+                </p>
+            </form>
+        </section>
+        <h2>Pesquisa:</h2>
+        <form action="página_destino.html" method="post">
+            Estado-civil:
+            <p>
+                <label for="casado">Casado</label>
+                <input type="radio" id="casado" name="Estado-civil">
+                <label for="solteiro">Solteiro</label>
+                <input type="radio" id="solteiro" name="Estado-civil">
+                <label for="divorciado">Divorciado</label>
+                <input type="radio" id="divorciado" name="Estado-civil">
+            <p>
+                Renda(quantidade de salários mínimos):
+            <p>
+                <label for="1">1</label>
+                <input type="radio" id="1" name="salario">
+                <label for="2">2</label>
+                <input type="radio" id="2" name="salario">
+                <label for="3">3</label>
+                <input type="radio" id="3" name="salario">
+                <label for="4">4</label>
+                <input type="radio" id="4" name="salario">
+                <label for="4+">4+</label>
+                <input type="radio" id="4+" name="salario">
+            </p>
+            <p>
+                <label for="estado">Unidade federativa(Sudeste):</label> 
+               <select multiple id="estado">
+                <option>Rio de Janeiro</option>
+                <option>Espírito Santo</option>
+                <option>São Paulo</option>
+                <option>Minas Gerais</option>
+               </select>
+            </p>
+            <p>
+                <input type="checkbox" id="termos">
+                <label for="termos">Permito os compartilhamentos de meus dados:</label>
+            </p>
+        </form>
+        <input type="submit" value="Enviar">
+    </body>
+</html>
