@@ -1,0 +1,14 @@
+/* Color Theme Swatches in Hex */
+
+.destaque { color: #202426; }
+.principal { color: #6C733D; }
+.fundo { color: #8C8C88; }
+.fundo { color: #F2F2F2; }
+.Natureza-3-hex { color: #9DA65D; }
+
+html{
+    background: #F2F2F2;
+    color: #6C733D;
+}
+
+
