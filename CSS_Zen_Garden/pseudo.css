@@ -1,0 +1,159 @@
+html{
+    background: white;
+    color: #030e1a;
+    font-family: sans-serif;
+    font-size: 1;
+    text-indent: 1em
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.2rem;    
+}
+.summary{ text-align: center;}
+#zen-supporting{
+    line-height: 1.5;
+}
+
+abbr{
+    font-variant: small-caps;
+}
+
+.page-wrapper {
+    width: 80% ;
+    max-width: 1280px ;
+    margin: auto;
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: #1f295c solid 1px;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 480px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+header {
+    background-color: #030e1a;
+    color: white;
+}
+
+h1, h2 {
+    display: inline-block;
+}
+
+
+h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+footer {
+    margin: 4%;
+}
+    
+footer a {
+    border: solid;
+    border-radius: 2%; 
+    padding: 0.5em;
+    display: inline block;
+}
+
+.sup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+}
+
+.benefits{
+    display: flex;
+    border-top: solid #030e1a 1px;
+    border-bottom: solid #030e1a 1px;
+}
+
+.benefits h3{
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}   
+
+.benefits p {
+    flex-basis: 70%;
+}
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #030e1a solid 1px;
+}
+
+.participation h3 {
+    align-self: center;
+}
+
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+
+a{
+    font-weight: 700;
+    color: #030e1a;
+}
+
+a:hover {
+    color: #030e1a75;
+}
+
+a:visited { 
+    font-weight: normal;
+}
+
+.main p:first-of-type:first-letter{
+    font-size: 3em;
+    font-family: Times;
+    float: left;
+}
+
+.design-selection li{
+    border-top: #05264a solid 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type{
+    border-bottom: #05264a solid 1px;
+    padding-bottom: 5px;
+}
+
